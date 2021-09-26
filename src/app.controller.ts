@@ -65,8 +65,8 @@ export class AppController {
     
   }
 
-  @Post('verify-token')
-  async verifyToken(@Req() request) {
+  @Post('validate-token')
+  async validateToken(@Req() request) {
     
   }
 }
