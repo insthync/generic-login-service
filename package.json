@@ -2,9 +2,9 @@
   "name": "generic-login-service",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": "Ittipon Teerapruettikulchai (Insthync)",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
