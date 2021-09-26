@@ -1,4 +1,4 @@
-import { Controller, Get, Post } from '@nestjs/common';
+import { Controller, Get, Post, Req } from '@nestjs/common';
 import { AppService } from './app.service';
 
 @Controller()
@@ -11,62 +11,62 @@ export class AppController {
   }
 
   @Post('login')
-  async login(@Request() request) {
+  async login(@Req() request) {
 
   }
 
   @Post('login-with-facebook')
-  async loginWithFacebook(@Request() request) {
+  async loginWithFacebook(@Req() request) {
 
   }
 
   @Post('link-with-facebook')
-  async linkWithFacebook(@Request() request) {
+  async linkWithFacebook(@Req() request) {
 
   }
 
   @Post('unlink-with-facebook')
-  async unlinkWithFacebook(@Request() request) {
+  async unlinkWithFacebook(@Req() request) {
 
   }
 
   @Post('login-with-google')
-  async loginWithGoogle(@Request() request) {
+  async loginWithGoogle(@Req() request) {
 
   }
 
   @Post('link-with-google')
-  async linkWithGoogle(@Request() request) {
+  async linkWithGoogle(@Req() request) {
 
   }
 
   @Post('unlink-with-google')
-  async unlinkWithGoogle(@Request() request) {
+  async unlinkWithGoogle(@Req() request) {
 
   }
 
   @Post('logout')
-  async logout(@Request() request) {
+  async logout(@Req() request) {
 
   }
 
   @Post('change-password')
-  async changePassword(@Request() request) {
+  async changePassword(@Req() request) {
     
   }
 
   @Post('register')
-  async register(@Request() request) {
+  async register(@Req() request) {
     
   }
 
   @Post('refresh-token')
-  async refreshToken(@Request() request) {
+  async refreshToken(@Req() request) {
     
   }
 
   @Post('verify-token')
-  async verifyToken(@Request() request) {
+  async verifyToken(@Req() request) {
     
   }
 }
